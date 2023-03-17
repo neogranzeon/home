@@ -6,7 +6,7 @@ module.exports = {
    * Tell Next.js where the `public` folder is.
    * Replace `home` with your Github repo project name.
    */
-  assetPrefix: isProd ? "/neogranzeon.github.io/" : "",
+  assetPrefix: isProd ? "/home/" : "",
   /**
    * Disable server-based image optimization.
    *
