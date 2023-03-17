@@ -1,18 +1,10 @@
-/** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
+// @ts-check
 
-module.exports = {
-  /**
-   * Tell Next.js where the `public` folder is.
-   * Replace `home` with your Github repo project name.
-   */
-  assetPrefix: isProd ? "/home/" : "",
-  /**
-   * Disable server-based image optimization.
-   *
-   * @see https://nextjs.org/blog/next-12-3#disable-image-optimization-stable
-   */
-  images: {
-    unoptimized: true,
-  },
-};
+/**
+ * @type {import('next').NextConfig}
+ **/
+const nextConfig = {
+  basePath: '/gh-pages-test',
+}
+
+module.exports = nextConfig
